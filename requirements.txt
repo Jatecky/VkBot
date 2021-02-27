@@ -1,2 +1,3 @@
 vk_api
 unicodedata
+pip==20.2.1
