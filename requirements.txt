@@ -1,3 +1,2 @@
 vk_api
-sqlite3
 unicodedata
