@@ -245,7 +245,9 @@ while True:
                         if s == 'пук':
                             vk.method("messages.send", {"peer_id": event.object.peer_id, "message": event.object.text,
                                                         "random_id": 0})
-
+                    if event.object.text.lower() == 'дарья кто?':
+                        vk.method("messages.send", {"peer_id": event.object.peer_id, "message": "самая крутая тян у которой все получица в жизни рэально, с днем рождения ее!=))",
+                                            "random_id": 0})
                     if p_c == 'ban_шо':
                         vk.method("messages.send", {"peer_id": event.object.peer_id, "message": 'command banned for 10 sec',
                                             "random_id": 0})
